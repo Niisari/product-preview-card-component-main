@@ -118,19 +118,20 @@ body {
 }
 
 .cart-btn img {
-    position: relative;
-    left: -7rem;
+    display: flex;
+    flex-direction: row-reverse;
+    order: -1
 }
 
 .attribution {
     position: absolute;
     bottom: 0;
     width: 100%;
-    font-size: 11px;
     text-align: center;
 }
+
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--Green500);
 }
 
 @media only screen and (min-width: 62rem) {
